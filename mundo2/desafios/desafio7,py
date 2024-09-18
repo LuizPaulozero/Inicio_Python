@@ -1,0 +1,14 @@
+from datetime import date
+ano_nascimento = int(input('Digite o ano em que vocêe nasceu: '))
+ano_atual = date.today().year
+diferenca = ano_atual - ano_nascimento
+if diferenca <= 9:
+    print('Você está na categoria mirim.')
+elif diferenca >= 10 and diferenca <= 14:
+    print('Você está na categoria infantil.')
+elif diferenca >= 15 and diferenca <= 19:
+    print('Você está na categoria junior.')
+elif diferenca >= 20 and diferenca < 21:
+    print('Você está na categoria sênior.')
+elif diferenca > 20:
+    print('Você está na categoria master.')

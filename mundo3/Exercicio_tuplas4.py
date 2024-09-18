@@ -1,0 +1,6 @@
+times = ('Botafogo', 'Fortaleza', 'Palmeiras', 'Flamento', 'Cruzeiro', 'São Paulo', 'Bahia', 'Internacional', 'Vasco da Gama', 'Atlético-MG', 'Bragantino', 'Ahtletico-PR', 'Juventude', 'Criciúma', 'Grêmio', 'Fluminense', 'Corinthians', 'EC Vitória', 'Cuiabá', 'Atlético-GO')
+print(f'Tabela do brasileirão: {times}')
+print(f'Os cinco Primeiro são: {times[:5]}')
+print(f'Os 4 últimos são: {times[-4:]}')
+print(f'Por ordem afabética: {sorted(times)}')
+print(f'O vasco está na 9° posição')
