@@ -9,4 +9,4 @@ while True:
     continuar = str(input('Deseja continuar? ')).lower()
     if 's' not in continuar:
         break
-print(numeros)
+print(f'Aqui está a lista em ordem crescente: {sorted(numeros)}')

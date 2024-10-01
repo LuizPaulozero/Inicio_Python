@@ -9,11 +9,7 @@ for i in range(5):
         while pos < len(numeros):
             if num <= numeros[pos]:
                 numeros.insert(pos, num)
-                print(pos)
-                if pos == 0:
-                    print('Número adicionado ao inicio da lista')
-                else:
-                    print('Número adicionado no meio da lista')
+                print(f'Número adicionado na {pos} da lista')
                 break
             pos += 1
 print(numeros)
